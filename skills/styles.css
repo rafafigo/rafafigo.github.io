@@ -100,7 +100,6 @@ td, tr {
     width: 100%
 }
 
-
 .java {
     width: 100%;
 }
@@ -109,16 +108,20 @@ td, tr {
     width: 100%;
 }
 
+.csharp {
+    width: 100%;
+}
+
 .html {
     width: 100%;
 }
 
 .psql {
-    width: 90%;
+    width: 95%;
 }
 
 .git {
-    width: 95%;
+    width: 100%;
 }
 
 .hoverfly {
@@ -150,31 +153,12 @@ td, tr {
 }
 
 .maven {
-    width: 60%;
+    width: 95%;
 }
 
-.junit {
-    width: 90%;
-}
-
-.jmeter {
-    width: 100%;
-}
 
 .spring {
     width: 60%;
-}
-
-.archi {
-    width: 100%;
-}
-
-.ea {
-    width: 80%;
-}
-
-.camunda {
-    width: 100%;
 }
 
 .wireshark {
