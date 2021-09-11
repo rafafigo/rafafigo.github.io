@@ -79,11 +79,11 @@ p {
     display: none;
 }
 
-.logo .instagram, .gmail, .skype, .whatsapp, .facebook{
+.logo .instagram, .gmail, .skype, .discord, .facebook{
     transition: all .5s;
 }
 
-.logo:hover, .instagram:hover, .gmail:hover, .skype:hover, .whatsapp:hover, .facebook:hover {
+.logo:hover, .instagram:hover, .gmail:hover, .skype:hover, .discord:hover, .facebook:hover {
     transform : scale(1.05);
 }
 

@@ -92,45 +92,10 @@ td, tr {
     float: left;
     background: #E37044;
 }
-.c {
+.c, .java, .android, .firebase, .python, .javascript, .csharp, .html, .psql, .git, .hoverfly, .flex, .ompmpi  {
     width: 100%;
 }
 
-.python {
-    width: 100%
-}
-
-.java {
-    width: 100%;
-}
-
-.javascript {
-    width: 100%;
-}
-
-.csharp {
-    width: 100%;
-}
-
-.html {
-    width: 100%;
-}
-
-.psql {
-    width: 95%;
-}
-
-.git {
-    width: 100%;
-}
-
-.hoverfly {
-    width: 100%;
-}
-
-.wiremock {
-    width: 80%;
-}
 
 .assembly {
     width: 80%;
@@ -140,22 +105,9 @@ td, tr {
     width: 60%;
 }
 
-.photoshop {
-    width: 60%;
-}
-
-.flex {
-    width: 100%;
-}
-
 .vue {
     width: 80%;
 }
-
-.maven {
-    width: 95%;
-}
-
 
 .spring {
     width: 60%;
