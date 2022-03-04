@@ -29,7 +29,7 @@ body {
 }
 
 #header a.active {
-    background-color: #E37044;
+    background-color: #318ce7;
     color: white;
 }
 
@@ -60,9 +60,9 @@ td, tr {
 .skills {
     width: 100%;
     background-color: #222831;
-    border-top: #E37044;
+    border-top: #318ce7;
     border-top-style: dashed;
-    border-bottom: #E37044;
+    border-bottom: #318ce7;
     border-bottom-style: dashed;
     border-width: 4px;
     padding-bottom: 2%;
@@ -87,7 +87,7 @@ td, tr {
 
 .subjects td, .subtitle td, .title td {
     border: 4px dashed;
-    border-color: #C15C40;
+    border-color: #318ce7;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #222831;

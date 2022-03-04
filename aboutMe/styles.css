@@ -29,7 +29,7 @@ body {
 }
 
 #header a.active {
-    background-color: #E37044;
+    background-color: #318ce7;
     color: white;
 }
 
@@ -61,9 +61,9 @@ td, tr {
 }
 
 .exp1, .exp2 {
-    border-top: #E37044;
+    border-top: #318ce7;
     border-top-style: dashed;
-    border-bottom: #E37044;
+    border-bottom: #318ce7;
     border-bottom-style: dashed;
     border-width: 4px;
     padding-bottom: 1%;
