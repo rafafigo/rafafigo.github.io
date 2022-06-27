@@ -141,7 +141,7 @@
 
         button {
           display: block;
-          min-width: 7.5rem;
+          width: 100%;
           height: 2.75rem;
           line-height: 2.75rem;
           padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
@@ -149,6 +149,7 @@
           letter-spacing: _font(letter-spacing);
           font-size: 0.8rem;
           font-family: _font(family);
+          text-align: center;
           border: none;
           box-shadow: none;
 

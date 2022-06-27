@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/rafaLandscape1.jpeg'
-import pic02 from '../images/work.jpg'
+import aboutRafa from '../images/rafaLandscape1.jpeg'
+import ContactUs from "./contact";
+import work from '../images/work.jpg'
 
 class Main extends React.Component {
     render() {
@@ -29,23 +30,23 @@ class Main extends React.Component {
                 >
                     <h1 className="major">About Me</h1>
                     <span className="image main">
-            <img src={pic01} alt=""/>
+            <img src={aboutRafa} alt=""/>
           </span>
                     <ul>
                         <li>
-                            Hello, My name is Rafael Figueiredo and I'm currently a student at IST (Instituto Superior
+                            Hello, my name is Rafael Figueiredo and I'm currently a student at IST (Instituto Superior
                             Tecnico),
                             where I'm on my last year of a Master's degree in Computer Science and Engineering.
                         </li>
                         <br></br>
                         <li>
-                            I consider myself an ambitiuous and hard-working individual, often recognized by my
-                            commmitment on my tasks.
+                            I consider myself an ambitious and hard-working individual, often recognized by my
+                            commitment on my tasks.
                         </li>
                         <br></br>
                         <li>
-                            On my free time I like to spend time with my family and friends, programming, watching
-                            series and movies, etc.
+                            On my free time I like be with my family and friends, programming, watching
+                            series and movies, and a lot of other fun activities.
 
                         </li>
                     </ul>
@@ -61,7 +62,7 @@ class Main extends React.Component {
                 >
                     <h1 className="major">Experience</h1>
                     <span className="image main">
-            <img src={pic02} alt=""/>
+            <img src={work} alt=""/>
           </span>
                     <p>
                         <ul>
@@ -103,28 +104,7 @@ class Main extends React.Component {
                     style={{display: 'none'}}
                 >
                     <h1 className="major">Contact</h1>
-                    <form method="post" action="mailto:rafafigo@gmail.com">
-                        <div className="field half first">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" name="name" id="name"/>
-                        </div>
-                        <div className="field half">
-                            <label htmlFor="email">Email</label>
-                            <input type="text" name="email" id="email"/>
-                        </div>
-                        <div className="field">
-                            <label htmlFor="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
-                        </div>
-                        <ul className="actions">
-                            <li>
-                                <input type="submit" value="Send Message" className="special"/>
-                            </li>
-                            <li>
-                                <input type="reset" value="Reset"/>
-                            </li>
-                        </ul>
-                    </form>
+                    <ContactUs onCloseArticle={this.props.onCloseArticle}></ContactUs>
                     <ul className="icons">
                         <li>
                             <a
