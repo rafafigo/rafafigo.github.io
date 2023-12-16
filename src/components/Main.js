@@ -41,15 +41,13 @@ class Main extends React.Component {
             </li>
             <br></br>
             <li>
-              On my daily basis I work with a diverse number of technologies such as Javascript
-              (Node.js and Angular.js), Java, Python, Bash, Powershell and Elasticsearch.
-              For CI/CD I mainly use tools such as Git, Maven, Jenkins, Artifactory, Docker, Gitlab CI/CD
-              pipelines and frameworks like JUnit and Mocha for testing.
+              In my daily work, I engage with a variety of tools, including Javascript, Java, Python, Bash, Powershell, and Elasticsearch.
+              My CI/CD workflow involves utilizing Maven, Git, Jenkins, Artifactory, Docker, Gitlab CI/CD pipelines, and testing frameworks like JUnit and Mocha.
             </li>
             <br></br>
             <li>
-              In my daily work, I engage with a variety of tools, including Javascript, Java, Python, Bash, Powershell, and Elasticsearch.
-              My CI/CD workflow involves utilizing Maven, Git, Jenkins, Artifactory, Docker, Gitlab CI/CD pipelines, and testing frameworks like JUnit and Mocha.
+              I consider myself an ambitious and hard-working individual, often recognized for my commitment and ability.
+              I handle multiple tasks regularly and competently, working well under pressure.
             </li>
             <br></br>
             <li>
