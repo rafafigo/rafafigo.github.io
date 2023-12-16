@@ -48,8 +48,8 @@ class Main extends React.Component {
             </li>
             <br></br>
             <li>
-              I consider myself an ambitious and hard-working individual, often recognized for my commitment and ability.
-              I handle multiple tasks regularly and competently, working well under pressure.
+              In my daily work, I engage with a variety of tools, including Javascript, Java, Python, Bash, Powershell, and Elasticsearch.
+              My CI/CD workflow involves utilizing Maven, Git, Jenkins, Artifactory, Docker, Gitlab CI/CD pipelines, and testing frameworks like JUnit and Mocha.
             </li>
             <br></br>
             <li>
@@ -83,8 +83,8 @@ class Main extends React.Component {
                         VoiceInteraction specialises in cutting-edge speech recognition technology, striving to enhance human communication through innovative solutions.
                       </li>
                       <li>
-                        In my daily work, I engage with a variety of tools, including Javascript, Java, Python, Bash, Powershell, and Elasticsearch.
-                        My CI/CD workflow involves utilizing Maven, Git, Jenkins, Artifactory, Docker, Gitlab CI/CD pipelines, and testing frameworks like JUnit and Mocha.
+                        As a Software Engineer at VoiceInteraction, I am responsible for helping design and implement software solutions to support the company's products and services,
+                        mainly contributing to both Audimus.Media and Audimus.Server, as well as various internal products.
                       </li>
                       <li><b>Tools</b>:  Java · Elasticsearch · Spring Framework · AngularJS · Node.js · Jenkins · Mocha · JUnit · Python
                         · Docker · Ffmpeg · AWS · Git · JFrog Artifactory</li>
