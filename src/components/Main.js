@@ -83,8 +83,8 @@ class Main extends React.Component {
                         VoiceInteraction specialises in cutting-edge speech recognition technology, striving to enhance human communication through innovative solutions.
                       </li>
                       <li>
-                        As a Software Engineer at VoiceInteraction, I am responsible for helping design and implement software solutions to support the company's products and services,
-                        mainly contributing to both Audimus.Media and Audimus.Server, as well as various internal products.
+                        In my daily work, I engage with a variety of tools, including Javascript, Java, Python, Bash, Powershell, and Elasticsearch.
+                        My CI/CD workflow involves utilizing Maven, Git, Jenkins, Artifactory, Docker, Gitlab CI/CD pipelines, and testing frameworks like JUnit and Mocha.
                       </li>
                       <li><b>Tools</b>:  Java · Elasticsearch · Spring Framework · AngularJS · Node.js · Jenkins · Mocha · JUnit · Python
                         · Docker · Ffmpeg · AWS · Git · JFrog Artifactory</li>
