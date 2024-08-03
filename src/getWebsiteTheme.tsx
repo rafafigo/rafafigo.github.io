@@ -1,6 +1,6 @@
-import {alpha, ThemeOptions} from '@mui/material/styles';
+import {alpha, type ThemeOptions} from '@mui/material/styles';
 import {red} from '@mui/material/colors';
-import {PaletteMode} from '@mui/material';
+import type {PaletteMode} from '@mui/material';
 
 declare module '@mui/material/styles/createPalette' {
     interface ColorRange {

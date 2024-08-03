@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {PaletteMode} from '@mui/material';
+import type {PaletteMode} from '@mui/material';
 import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';

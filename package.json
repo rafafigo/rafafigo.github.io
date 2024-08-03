@@ -5,19 +5,20 @@
   "author": "Rafael Figueiredo",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/icons-material": "latest",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
     "@mui/lab": "^5.0.0-alpha.173",
-    "@mui/material": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
+    "@mui/material": "^5.16.6",
+    "@types/react": "^18.3.3",
+    "@types/react-animate-on-scroll": "^2.1.8",
+    "@types/react-dom": "^18.3.0",
     "animate.css": "^4.1.1",
     "framer-motion": "^11.3.21",
-    "react": "latest",
+    "react": "^18.3.1",
     "react-animate-on-scroll": "^2.1.9",
-    "react-dom": "latest",
-    "react-scripts": "latest",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
     "typescript": "latest"
   },
   "scripts": {
@@ -28,7 +29,19 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "@types/react-animate-on-scroll": "^2.1.8"
+    "@biomejs/biome": "1.8.3",
+    "gh-pages": "^6.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

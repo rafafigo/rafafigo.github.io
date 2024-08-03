@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {PaletteMode} from '@mui/material';
+import type {PaletteMode} from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
