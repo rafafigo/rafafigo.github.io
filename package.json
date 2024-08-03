@@ -3,6 +3,7 @@
   "description": "portfolio about Rafael",
   "version": "2.0.0",
   "author": "Rafael Figueiredo",
+  "homepage": "https://rafafigo.github.io",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/react": "^11.13.0",
@@ -24,7 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts build && gh-pages -d public -b main",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
