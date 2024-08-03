@@ -119,7 +119,7 @@ export default function Experience() {
 					}}
 				>
 					{items.map((item, index) => (
-						<AnimatedFadeInNode>
+						<AnimatedFadeInNode key={index}>
 							<TimelineItem
 								sx={{
 									px: 0,

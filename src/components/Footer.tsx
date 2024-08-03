@@ -19,8 +19,8 @@ export default function Footer() {
 				display: "flex",
 				flexDirection: "column",
 				alignItems: "center",
-				py: { sm: 4 },
-				textAlign: { sm: "center", md: "left" },
+				pb: { xs: 6 },
+				textAlign: { xs: "center" },
 			}}
 		>
 			<Stack justifyContent="center" spacing={2}>

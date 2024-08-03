@@ -322,6 +322,7 @@ function MenuBar({ mode, toggleColorMode }: AppAppBarProps) {
 											bottom: 10,
 											position: "absolute",
 											display: "flex",
+											width: 1
 										}}
 									>
 										<Footer />

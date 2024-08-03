@@ -23,7 +23,6 @@ export function AnimatedFadeInDivider() {
 			<Divider
 				sx={(theme) => ({
 					alignSelf: "center",
-					width: "100%",
 					margin: "20px",
 					height: "0px",
 					backgroundSize: "cover",

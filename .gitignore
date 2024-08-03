@@ -1,5 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,nextjs
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,node,nextjs
+.idea
 
 ### NextJS ###
 # Dependencies
