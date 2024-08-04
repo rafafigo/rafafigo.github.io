@@ -72,7 +72,6 @@ export default function AboutMe() {
 					<Card
 						key={index}
 						variant="outlined"
-						component={Button}
 						sx={{
 							p: { xs: 2, md: 4, xl: 5 },
 							height: "fit-content",
