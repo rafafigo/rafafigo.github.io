@@ -48,7 +48,6 @@ const items = [
 			"GitHub Actions",
 			"Gitlab Pipelines",
 			"Single SPA",
-			"Web Components",
 		],
 	},
 	{
@@ -67,11 +66,11 @@ const items = [
 	},
 	{
 		title: "Event Driven",
-		subItems: ["Pulsar", "Service Bus", "Event Hubs", "WebSockets", "Webhooks"],
+		subItems: ["Pulsar", "WebSockets", "Webhooks"],
 	},
 	{
 		title: "Testing Frameworks",
-		subItems: ["JUnit", "Cypress", "Mocha", "Mockito", "Testcontainers"],
+		subItems: ["JUnit", "Cypress", "Mocha", "Testcontainers"],
 	},
 ];
 
