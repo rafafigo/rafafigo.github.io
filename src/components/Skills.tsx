@@ -56,7 +56,7 @@ const items = [
 		title: "Infrastructure",
 		subItems: [
 			"Terraform",
-			"Helm charts",
+			"Helm Charts",
 			"Kubernetes",
 			"Docker",
 			"Docker Container",
