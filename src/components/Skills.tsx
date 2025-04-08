@@ -48,8 +48,8 @@ const items = [
 			"Artifactory",
 			"Jenkins",
 			"Git",
+			"GitLab CI/CD",
 			"GitHub Actions",
-			"Gitlab Pipelines",
 		],
 	},
 	{
@@ -77,7 +77,9 @@ const items = [
 		subItems: [
 			"EC2",
 			"S3",
-			"CloudFront"
+			"CloudFront",
+			"EKS",
+			"Secrets Manager"
 		]
 
 	},
