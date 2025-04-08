@@ -51,40 +51,6 @@ const items = [
 		],
 	},
 	{
-		title: "Infrastructure and Cloud",
-		subItems: [
-			// IaC & Orchestration
-			"Terraform",
-			"Helm charts",
-			"Kubernetes",
-			"Docker",
-			"Docker Container",
-		  
-			// Azure
-			"Azure Services",
-			"AKS",
-			"Azure KeyVault",
-			"Azure APG",
-			"Azure APIM",
-			"Azure AD",
-			"Azure Blob Storage",
-			"Azure Event Hubs",
-			"Azure Service Bus",
-		  
-			// GCP
-			"GKE",
-			"GCP Firestore",
-			"GCP Pub/Sub",
-			"GCP Artifact Registry",
-			"GCP Secret Manager",
-		  
-			// AWS
-			"AWS EC2",
-			"AWS S3",
-			"AWS CloudFront"
-		  ],
-	},
-	{
 		title: "Event Driven",
 		subItems: ["Pulsar", "WebSockets", "Webhooks"],
 	},
@@ -92,6 +58,50 @@ const items = [
 		title: "Testing Frameworks",
 		subItems: ["JUnit", "Cypress", "Mocha", "Testcontainers"],
 	},
+	{
+		title: "Infrastructure",
+		subItems: [
+			"Terraform",
+			"Helm charts",
+			"Kubernetes",
+			"Docker",
+			"Docker Container",
+		],
+	},
+	{
+		title: "Azure",
+		subItems: [
+			"AKS",
+			"KeyVault",
+			"APG",
+			"APIM",
+			"AD",
+			"Blob Storage",
+			"Event Hubs",
+			"Service Bus",
+		]
+
+	},
+	{
+		title: "GCP",
+		subItems: [
+			"GKE",
+			"Firestore",
+			"Pub/Sub",
+			"Artifact Registry",
+			"Secret Manager",
+		]
+
+	},
+	{
+		title: "AWS",
+		subItems: [
+			"EC2",
+			"S3",
+			"CloudFront"
+		]
+
+	}
 ];
 
 export default function Skills() {
