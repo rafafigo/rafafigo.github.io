@@ -35,14 +35,31 @@ const items = [
 		subItems: ["React.js", "Angular.js", "Vue.js", "React Native"],
 	},
 	{
+		title: "Event Driven",
+		subItems: ["Pulsar", "WebSockets", "Webhooks"],
+	},
+	{
+		title: "Testing Frameworks",
+		subItems: ["JUnit", "Cypress", "Mocha", "Testcontainers"],
+	},
+	{
 		title: "CI/CD",
 		subItems: [
-			"Azure Artifacts",
 			"Artifactory",
 			"Jenkins",
 			"Git",
 			"GitHub Actions",
 			"Gitlab Pipelines",
+		],
+	},
+	{
+		title: "Infrastructure",
+		subItems: [
+			"Terraform",
+			"Helm charts",
+			"Kubernetes",
+			"Docker",
+			"Docker Container",
 		],
 	},
 	{
@@ -56,22 +73,13 @@ const items = [
 		],
 	},
 	{
-		title: "Event Driven",
-		subItems: ["Pulsar", "WebSockets", "Webhooks"],
-	},
-	{
-		title: "Testing Frameworks",
-		subItems: ["JUnit", "Cypress", "Mocha", "Testcontainers"],
-	},
-	{
-		title: "Infrastructure",
+		title: "AWS",
 		subItems: [
-			"Terraform",
-			"Helm charts",
-			"Kubernetes",
-			"Docker",
-			"Docker Container",
-		],
+			"EC2",
+			"S3",
+			"CloudFront"
+		]
+
 	},
 	{
 		title: "Azure",
@@ -84,6 +92,7 @@ const items = [
 			"Blob Storage",
 			"Event Hubs",
 			"Service Bus",
+			"Azure Artifacts"
 		]
 
 	},
@@ -95,15 +104,6 @@ const items = [
 			"Pub/Sub",
 			"Artifact Registry",
 			"Secret Manager",
-		]
-
-	},
-	{
-		title: "AWS",
-		subItems: [
-			"EC2",
-			"S3",
-			"CloudFront"
 		]
 
 	}
