@@ -135,7 +135,7 @@ function getMenuItems(scrollToSection: (sectionId: string) => void) {
 				</Typography>
 			</MenuItem>
 			<MenuItem
-				href="https://drive.google.com/file/d/146Qiq3gY0nwvoHhrgIKxN7g2Q4Kohxmt/view?usp=drive_link"
+				href="https://drive.google.com/file/d/1AsPhr-yy1MvDSaZIGJfP4CyIeaICDdcM/view?usp=sharing"
 				target="_blank"
 				component="a"
 				onClick={() => scrollToSection("pricing")}

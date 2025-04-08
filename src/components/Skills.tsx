@@ -53,16 +53,36 @@ const items = [
 	{
 		title: "Infrastructure and Cloud",
 		subItems: [
+			// IaC & Orchestration
 			"Terraform",
 			"Helm charts",
 			"Kubernetes",
-			"Azure Services",
-			"AWS EC2",
-			"AWS S3",
-			"AWS CF",
 			"Docker",
 			"Docker Container",
-		],
+		  
+			// Azure
+			"Azure Services",
+			"AKS",
+			"Azure KeyVault",
+			"Azure APG",
+			"Azure APIM",
+			"Azure AD",
+			"Azure Blob Storage",
+			"Azure Event Hubs",
+			"Azure Service Bus",
+		  
+			// GCP
+			"GKE",
+			"GCP Firestore",
+			"GCP Pub/Sub",
+			"GCP Artifact Registry",
+			"GCP Secret Manager",
+		  
+			// AWS
+			"AWS EC2",
+			"AWS S3",
+			"AWS CloudFront"
+		  ],
 	},
 	{
 		title: "Event Driven",
