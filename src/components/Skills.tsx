@@ -48,7 +48,7 @@ const items = [
 			"Artifactory",
 			"Jenkins",
 			"Git",
-			"CI/CD Pipelines",
+			"Gitlab Pipelines",
 			"GitHub Actions",
 		],
 	},
