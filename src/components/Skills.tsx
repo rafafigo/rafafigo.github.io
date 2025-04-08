@@ -35,18 +35,23 @@ const items = [
 		subItems: ["React.js", "Angular.js", "Vue.js", "React Native"],
 	},
 	{
-		title: "CI/CD and Build Tools",
+		title: "CI/CD",
 		subItems: [
-			"Maven",
-			"Npm",
-			"Yarn",
-			"Webpack",
 			"Azure Artifacts",
 			"Artifactory",
 			"Jenkins",
 			"Git",
 			"GitHub Actions",
 			"Gitlab Pipelines",
+		],
+	},
+	{
+		title: "Build Tools",
+		subItems: [
+			"Maven",
+			"Npm",
+			"Yarn",
+			"Webpack",
 			"Single SPA",
 		],
 	},
