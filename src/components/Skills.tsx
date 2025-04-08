@@ -48,7 +48,7 @@ const items = [
 			"Artifactory",
 			"Jenkins",
 			"Git",
-			"GitLab CI/CD",
+			"CI/CD Pipelines",
 			"GitHub Actions",
 		],
 	},
@@ -58,6 +58,7 @@ const items = [
 			"Terraform",
 			"Helm Charts",
 			"Kubernetes",
+			"Virtual Machines",
 			"Docker",
 			"Docker Container",
 		],
@@ -69,7 +70,6 @@ const items = [
 			"Npm",
 			"Yarn",
 			"Webpack",
-			"Single SPA",
 		],
 	},
 	{
@@ -79,7 +79,6 @@ const items = [
 			"S3",
 			"CloudFront",
 			"EKS",
-			"Secrets Manager"
 		]
 
 	},
