@@ -35,6 +35,40 @@ const items = [
 		subItems: ["React.js", "Angular.js", "Vue.js", "React Native"],
 	},
 	{
+		title: "CI/CD and Build Tools",
+		subItems: [
+			"Maven",
+			"Npm",
+			"Yarn",
+			"Webpack",
+			"Azure Artifacts",
+			"Azure Pipelines",
+			"Artifactory",
+			"Jenkins",
+			"Git",
+			"GitHub Actions",
+			"Gitlab Pipelines",
+			"Single SPA",
+		],
+	},
+	{
+		title: "Infrastructure and Cloud",
+		subItems: [
+			"Terraform",
+			"Helm charts",
+			"Kubernetes",
+			"Azure Services",
+			"AWS EC2",
+			"AWS S3",
+			"AWS Lambda",
+			"AWS API Gateway",
+			"AWS EKS",
+			"AWS CF",
+			"Docker",
+			"Docker Container",
+		],
+	},
+	{
 		title: "Event Driven",
 		subItems: ["Pulsar", "WebSockets", "Webhooks"],
 	},
@@ -42,72 +76,6 @@ const items = [
 		title: "Testing Frameworks",
 		subItems: ["JUnit", "Cypress", "Mocha", "Testcontainers"],
 	},
-	{
-		title: "CI/CD",
-		subItems: [
-			"Artifactory",
-			"Jenkins",
-			"Git",
-			"Gitlab Pipelines",
-			"GitHub Actions",
-		],
-	},
-	{
-		title: "Infrastructure",
-		subItems: [
-			"Terraform",
-			"Helm Charts",
-			"Kubernetes",
-			"Virtual Machines",
-			"Docker",
-			"Docker Container",
-		],
-	},
-	{
-		title: "Build Tools",
-		subItems: [
-			"Maven",
-			"Npm",
-			"Yarn",
-			"Webpack",
-		],
-	},
-	{
-		title: "AWS",
-		subItems: [
-			"EC2",
-			"S3",
-			"CloudFront",
-			"EKS",
-		]
-
-	},
-	{
-		title: "Azure",
-		subItems: [
-			"AKS",
-			"KeyVault",
-			"APG",
-			"APIM",
-			"AD",
-			"Blob Storage",
-			"Event Hubs",
-			"Service Bus",
-			"Azure Artifacts"
-		]
-
-	},
-	{
-		title: "GCP",
-		subItems: [
-			"GKE",
-			"Firestore",
-			"Pub/Sub",
-			"Artifact Registry",
-			"Secret Manager",
-		]
-
-	}
 ];
 
 export default function Skills() {

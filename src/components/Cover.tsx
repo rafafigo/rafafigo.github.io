@@ -89,7 +89,7 @@ export default function Cover() {
 								fontSize: "clamp(1rem, 2.5vw, 2.1rem);",
 							}}
 						>
-							Software Engineer @&nbsp;
+							Senior Software Engineer @&nbsp;
 							<Typography
 								component="span"
 								variant="h3"

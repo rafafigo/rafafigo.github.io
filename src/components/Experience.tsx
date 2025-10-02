@@ -21,16 +21,27 @@ import { AnimatedFadeInImage, AnimatedFadeInNode } from "./common/Animation";
 const items = [
 	{
 		icon: <MotorolaSolutionsIcon />,
-		title: "Software Engineer @ Motorola Solutions",
-		year: "Apr 2024 - Present",
-		dateStart: "Apr 2024",
+		title: "Senior Software Engineer @ Motorola Solutions",
+		dateStart: "Oct 2025",
 		dateEnd: "Present",
 		type: "Work",
 		description:
-			"Motorola Solutions leads the industry in providing mission-critical communication solutions for public " +
-			"safety and commercial customers. As a Software Engineer, I work in a Scrum team where I contribute to " +
-			"the development of innovative solutions aimed at enhancing safety and security. Leveraging cross-functional " +
-			"collaboration, I play a role in implementing software that aligns with our mission of 'Solving for Safer'.",
+			"Promoted to Senior Software Engineer at Motorola Solutions, where I lead and contribute to " +
+			"mission-critical communication solutions for public safety and commercial customers. In this role, I " +
+			"develop innovative solutions aimed at enhancing safety and security through cross-functional " +
+			"collaboration, aligned with our mission of 'Solving for Safer'.",
+	},
+	{
+		icon: <MotorolaSolutionsIcon />,
+		title: "Software Engineer @ Motorola Solutions",
+		dateStart: "Apr 2024",
+		dateEnd: "Sep 2025",
+		type: "Work",
+		description: 
+				"Motorola Solutions leads the industry in providing mission-critical communication solutions for public " +
+				"safety and commercial customers. As a Software Engineer, I work in a Scrum team where I contribute to " +
+				"the development of innovative solutions aimed at enhancing safety and security. Leveraging cross-functional " +    
+				"collaboration, I play a role in implementing software that aligns with our mission of 'Solving for Safer'.",
 	},
 	{
 		icon: <VoiceInteractionIcon />,
