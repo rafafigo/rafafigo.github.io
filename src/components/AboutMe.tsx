@@ -12,7 +12,7 @@ const items = [
 		icon: <EmojiEmotions fontSize="large" />,
 		title: "Me",
 		description:
-			"Hey there! 👋 I am Rafael Figueiredo, a dedicated Software Engineer with a Master's degree in " +
+			"Hey there! 👋 I am Rafael Figueiredo, a dedicated Senior Software Engineer with a Master's degree in " +
 			"Computer Science and Engineering from IST. Currently contributing my skills to Motorola Solutions, " +
 			"where we are commited to solving for safer everywhere. I consider myself an ambitious and hard-working " +
 			"individual, often recognized for my commitment and ability. I handle multiple tasks regularly and competently, " +
