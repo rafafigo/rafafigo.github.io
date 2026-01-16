@@ -1,7 +1,7 @@
 import * as React from "react";
-import type { PaletteMode } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
+import { alpha } from "@mui/material/styles";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import MenuBar from "./components/MenuBar";
 import Cover from "./components/Cover";
@@ -9,30 +9,27 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import getWebsiteTheme from "./getWebsiteTheme";
-import { AnimatedFadeInDivider } from "./components/common/Animation";
 import Experience from "./components/Experience";
 
 export default function App() {
-	const [mode, setMode] = React.useState<PaletteMode>("dark");
-	const customTheme = createTheme(getWebsiteTheme(mode));
-
-	const toggleColorMode = () => {
-		setMode((prev) => (prev === "dark" ? "light" : "dark"));
-	};
+	// Always use dark mode
+	const websiteTheme = createTheme(getWebsiteTheme("dark"));
 
 	return (
-		<ThemeProvider theme={customTheme}>
+		<ThemeProvider theme={websiteTheme}>
 			<CssBaseline />
-			<MenuBar mode={mode} toggleColorMode={toggleColorMode} />
+			<MenuBar />
 			<Cover />
-			<Box sx={{ bgcolor: "background.default" }}>
-				<AnimatedFadeInDivider />
+			<Box 
+				sx={{ 
+					bgcolor: "background.default",
+					py: { xs: 2, sm: 3, md: 4 },
+					background: `linear-gradient(180deg, ${alpha("#18181B", 0.0)} 0%, #18181B 15%, #18181B 100%)`,
+				}}
+			>
 				<AboutMe />
-				<AnimatedFadeInDivider />
 				<Experience />
-				<AnimatedFadeInDivider />
 				<Skills />
-				<AnimatedFadeInDivider />
 				<Footer />
 			</Box>
 		</ThemeProvider>

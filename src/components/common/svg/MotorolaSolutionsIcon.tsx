@@ -8,7 +8,10 @@ export default function MotorolaSolutionsIcon(props: IconProps) {
 		<SvgIcon
 			{...props}
 			viewBox="0 0 1568 1571"
-			sx={{ my: "6px", fontSize: { xs: "2.5rem", sm: "3.5rem" } }}
+			sx={{ 
+				width: "100%",
+				height: "100%",
+			}}
 		>
 			<g>
 				<g>

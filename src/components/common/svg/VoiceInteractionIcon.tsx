@@ -9,7 +9,10 @@ export default function VoiceInteractionIcon(props: IconProps) {
 			{...props}
 			fontSize="large"
 			viewBox="0 0 1920 1920"
-			sx={{ my: "6px", fontSize: { xs: "2.5rem", sm: "3.5rem" } }}
+			sx={{ 
+				width: "100%",
+				height: "100%",
+			}}
 		>
 			<path
 				fill="#014D6D"

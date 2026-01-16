@@ -3,42 +3,55 @@ import { red } from "@mui/material/colors";
 import type { PaletteMode } from "@mui/material";
 
 export const brand = {
-	50: "#F0F7FF",
-	100: "#CEE5FD",
-	200: "#9CCCFC",
-	300: "#55A6F6",
-	400: "#0A66C2",
-	500: "#0959AA",
-	600: "#064079",
-	700: "#033363",
-	800: "#02294F",
-	900: "#021F3B",
+	50: "#F0F9FF",
+	100: "#E0F2FE",
+	200: "#BAE6FD",
+	300: "#7DD3FC",
+	400: "#38BDF8",
+	500: "#0EA5E9",
+	600: "#0284C7",
+	700: "#0369A1",
+	800: "#075985",
+	900: "#0C4A6E",
 };
 
 export const secondary = {
-	50: "#F9F0FF",
-	100: "#E9CEFD",
-	200: "#D49CFC",
-	300: "#B355F6",
-	400: "#750AC2",
-	500: "#6709AA",
-	600: "#490679",
-	700: "#3B0363",
-	800: "#2F024F",
-	900: "#23023B",
+	50: "#FDF4FF",
+	100: "#FAE8FF",
+	200: "#F5D0FE",
+	300: "#F0ABFC",
+	400: "#E879F9",
+	500: "#D946EF",
+	600: "#C026D3",
+	700: "#A21CAF",
+	800: "#86198F",
+	900: "#701A75",
+};
+
+export const accent = {
+	50: "#FFF7ED",
+	100: "#FFEDD5",
+	200: "#FED7AA",
+	300: "#FDBA74",
+	400: "#FB923C",
+	500: "#F97316",
+	600: "#EA580C",
+	700: "#C2410C",
+	800: "#9A3412",
+	900: "#7C2D12",
 };
 
 export const gray = {
-	50: "#FBFCFE",
-	100: "#EAF0F5",
-	200: "#D6E2EB",
-	300: "#BFCCD9",
-	400: "#94A6B8",
-	500: "#5B6B7C",
-	600: "#4C5967",
-	700: "#364049",
-	800: "#131B20",
-	900: "#090E10",
+	50: "#FAFAFA",
+	100: "#F4F4F5",
+	200: "#E4E4E7",
+	300: "#D4D4D8",
+	400: "#A1A1AA",
+	500: "#71717A",
+	600: "#52525B",
+	700: "#3F3F46",
+	800: "#27272A",
+	900: "#18181B",
 };
 
 export const green = {
@@ -65,40 +78,40 @@ const getDesignTokens = (mode: PaletteMode) => ({
 	palette: {
 		mode,
 		primary: {
-			light: brand[200],
-			main: brand[500],
-			dark: brand[800],
+			light: brand[300],
+			main: mode === "light" ? brand[600] : brand[500],
+			dark: brand[700],
 			contrastText: brand[50],
 			...(mode === "dark" && {
-				contrastText: brand[100],
-				light: brand[300],
-				main: brand[400],
-				dark: brand[800],
+				contrastText: brand[50],
+				light: brand[400],
+				main: brand[500],
+				dark: brand[600],
 			}),
 		},
 		secondary: {
 			light: secondary[300],
-			main: secondary[500],
+			main: mode === "light" ? secondary[600] : secondary[500],
 			dark: secondary[800],
 			...(mode === "dark" && {
 				light: secondary[400],
 				main: secondary[500],
-				dark: secondary[900],
+				dark: secondary[700],
 			}),
 		},
 		warning: {
-			main: "#F7B538",
-			dark: "#F79F00",
-			...(mode === "dark" && { main: "#F7B538", dark: "#F79F00" }),
+			main: "#D97706",
+			dark: "#B45309",
+			...(mode === "dark" && { main: "#FBBF24", dark: "#F59E0B" }),
 		},
 		error: {
 			light: red[50],
 			main: red[500],
 			dark: red[700],
 			...(mode === "dark" && {
-				light: "#D32F2F",
-				main: "#D32F2F",
-				dark: "#B22A2A",
+				light: "#EF4444",
+				main: "#DC2626",
+				dark: "#B91C1C",
 			}),
 		},
 		success: {
@@ -125,14 +138,12 @@ const getDesignTokens = (mode: PaletteMode) => ({
 		},
 		divider: mode === "dark" ? alpha(gray[600], 0.3) : alpha(gray[300], 0.5),
 		background: {
-			default: "#fff",
-			paper: gray[50],
-			...(mode === "dark" && { default: gray[900], paper: gray[800] }),
+			default: mode === "light" ? "#FAFAFA" : gray[900],
+			paper: mode === "light" ? "#FFFFFF" : gray[800],
 		},
 		text: {
-			primary: gray[800],
-			secondary: gray[600],
-			...(mode === "dark" && { primary: "#fff", secondary: gray[400] }),
+			primary: mode === "light" ? gray[800] : gray[50],
+			secondary: mode === "light" ? gray[600] : gray[400],
 		},
 		tabs: {
 			primary: gradient[300],
@@ -374,15 +385,16 @@ export default function getWebsiteTheme(mode: PaletteMode): ThemeOptions {
 				styleOverrides: {
 					root: ({ theme, ownerState }) => ({
 						backgroundColor: gray[50],
-						borderRadius: 10,
+						borderRadius: 16,
 						border: `1px solid ${alpha(gray[200], 0.8)}`,
 						boxShadow: "none",
-						transition: "background-color, border, 80ms ease",
+						transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
 						...(ownerState.variant === "outlined" && {
-							background: `linear-gradient(to bottom, #FFF, ${gray[50]})`,
+							background: `linear-gradient(to bottom, #FFFFFF, ${gray[50]})`,
 							"&:hover": {
-								borderColor: brand[300],
-								boxShadow: `0 0 24px ${brand[100]}`,
+								borderColor: brand[400],
+								boxShadow: `0 8px 24px ${alpha(brand[500], 0.12)}`,
+								transform: "translateY(-2px)",
 							},
 						}),
 						...(theme.palette.mode === "dark" && {
@@ -394,8 +406,9 @@ export default function getWebsiteTheme(mode: PaletteMode): ThemeOptions {
 									0.5,
 								)})`,
 								"&:hover": {
-									borderColor: brand[700],
-									boxShadow: `0 0 24px ${brand[800]}`,
+									borderColor: brand[600],
+									boxShadow: `0 8px 24px ${alpha(brand[400], 0.15)}`,
+									transform: "translateY(-2px)",
 								},
 							}),
 						}),
@@ -408,12 +421,15 @@ export default function getWebsiteTheme(mode: PaletteMode): ThemeOptions {
 						alignSelf: "center",
 						py: 1.5,
 						px: 0.5,
-						background: `linear-gradient(to bottom right, ${brand[50]}, ${brand[100]})`,
+						borderRadius: "8px",
+						background: `linear-gradient(135deg, ${brand[50]}, ${brand[100]})`,
 						border: "1px solid",
 						borderColor: `${alpha(brand[500], 0.3)}`,
 						fontWeight: "600",
+						transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
 						"&:hover": {
 							backgroundColor: brand[500],
+							transform: "scale(1.05)",
 						},
 						"&:focus-visible": {
 							borderColor: brand[800],
@@ -426,17 +442,18 @@ export default function getWebsiteTheme(mode: PaletteMode): ThemeOptions {
 							color: brand[500],
 						},
 						...(theme.palette.mode === "dark" && {
-							background: `linear-gradient(to bottom right, ${brand[700]}, ${brand[900]})`,
+							background: `linear-gradient(135deg, ${gray[800]}, ${gray[700]})`,
 							borderColor: `${alpha(brand[500], 0.5)}`,
 							"&:hover": {
-								backgroundColor: brand[600],
+								backgroundColor: brand[700],
+								transform: "scale(1.05)",
 							},
 							"&:focus-visible": {
 								borderColor: brand[200],
 								backgroundColor: brand[600],
 							},
 							"& .MuiChip-label": {
-								color: brand[200],
+								color: gray[200],
 							},
 							"& .MuiChip-icon": {
 								color: brand[200],
