@@ -60,7 +60,7 @@ export default function Cover() {
 							<AnimatedFadeInImage>
 						<Avatar
 							alt="Rafael Figueiredo"
-							src="/rafa.jpg"
+							src="/rafa.jpeg"
 							sx={{
 								width: { xs: 140, sm: 180, md: 200, lg: 220 },
 								height: { xs: 140, sm: 180, md: 200, lg: 220 },
