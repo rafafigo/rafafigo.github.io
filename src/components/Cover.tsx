@@ -125,33 +125,14 @@ export default function Cover() {
 									mb: 1,
 								}}
 							>
-								Senior Software Engineer at
+								Senior Software Engineer @
 							</Typography>
 						<Link
 							href="https://www.motorolasolutions.com"
 							target="_blank"
 							sx={{ 
 								textDecoration: "none",
-								position: "relative",
 								display: "inline-block",
-								"&::after": {
-									content: '""',
-									position: "absolute",
-									bottom: "-2px",
-									left: 0,
-									width: "100%",
-									height: "2px",
-									background: (theme) =>
-										theme.palette.mode === "light"
-											? "linear-gradient(135deg, #64748B 0%, #94A3B8 100%)"
-											: "linear-gradient(135deg, #94A3B8 0%, #CBD5E1 100%)",
-									transform: "scaleX(0)",
-									transformOrigin: "left",
-									transition: "transform 0.3s ease",
-								},
-								"&:hover::after": {
-									transform: "scaleX(1)",
-								},
 							}}
 						>
 							<Typography
@@ -174,6 +155,11 @@ export default function Cover() {
 									transition: "all 0.3s ease",
 									"&:hover": {
 										filter: "brightness(1.2)",
+										textDecoration: "underline",
+										textDecorationColor: (theme) =>
+											theme.palette.mode === "light" ? "#94A3B8" : "#CBD5E1",
+										textDecorationThickness: "2px",
+										textUnderlineOffset: "5px",
 									},
 								}}
 							>
@@ -200,33 +186,14 @@ export default function Cover() {
 							mb: 0.5,
 						}}
 					>
-						Master's Degree in Computer Science and Engineering from
+						Master's Degree in Computer Science and Engineering @
 					</Typography>
 						<Link
 							target="_blank"
 							href="https://tecnico.ulisboa.pt/"
 							sx={{ 
 								textDecoration: "none",
-								position: "relative",
 								display: "inline-block",
-								"&::after": {
-									content: '""',
-									position: "absolute",
-									bottom: "-2px",
-									left: 0,
-									width: "100%",
-									height: "2px",
-									background: (theme) =>
-										theme.palette.mode === "light"
-											? "linear-gradient(135deg, #22C55E 0%, #4ADE80 100%)"
-											: "linear-gradient(135deg, #86EFAC 0%, #BBF7D0 100%)",
-									transform: "scaleX(0)",
-									transformOrigin: "left",
-									transition: "transform 0.3s ease",
-								},
-								"&:hover::after": {
-									transform: "scaleX(1)",
-								},
 							}}
 						>
 								<Typography
@@ -249,6 +216,11 @@ export default function Cover() {
 										transition: "all 0.3s ease",
 										"&:hover": {
 											filter: "brightness(1.2)",
+											textDecoration: "underline",
+											textDecorationColor: (theme) =>
+												theme.palette.mode === "light" ? "#4ADE80" : "#BBF7D0",
+											textDecorationThickness: "2px",
+											textUnderlineOffset: "5px",
 										},
 									}}
 								>

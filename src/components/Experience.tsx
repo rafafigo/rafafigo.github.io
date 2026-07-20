@@ -38,9 +38,10 @@ const professionalExperience: TimelineItemData[] = [
 		dateEnd: "Present",
 		type: "Current Role",
 		description:
-			"Build mission-critical cloud software for public safety and commercial customers across backend services, " +
-			"frontend applications, infrastructure, and delivery pipelines. The work focuses on reliability, maintainability, " +
-			"and production readiness.",
+			"Promoted to Senior Software Engineer at Motorola Solutions, where I lead and contribute to " +
+			"mission-critical communication solutions for public safety and commercial customers. In this role, I " +
+			"develop innovative solutions aimed at enhancing safety and security through cross-functional " +
+			"collaboration, aligned with our mission of 'Solving for Safer'.",
 		gradient: "linear-gradient(135deg, #0EA5E9 0%, #38BDF8 100%)",
 		color: "#0EA5E9",
 	},
@@ -53,9 +54,10 @@ const professionalExperience: TimelineItemData[] = [
 		dateEnd: "Sep 2025",
 		type: "Full-time",
 		description:
-			"Worked in a Scrum team delivering safety and security product features across microservices, " +
-			"frontend applications, data flows, infrastructure, and CI/CD. The role involved turning product requirements " +
-			"into maintainable features and supporting them through delivery.",
+			"Motorola Solutions leads the industry in providing mission-critical communication solutions for public " +
+			"safety and commercial customers. As a Software Engineer, I work in a Scrum team where I contribute to " +
+			"the development of innovative solutions aimed at enhancing safety and security. Leveraging cross-functional " +
+			"collaboration, I play a role in implementing software that aligns with our mission of 'Solving for Safer'.",
 		gradient: "linear-gradient(135deg, #06B6D4 0%, #22D3EE 100%)",
 		color: "#06B6D4",
 	},
@@ -68,8 +70,10 @@ const professionalExperience: TimelineItemData[] = [
 		dateEnd: "Mar 2024",
 		type: "Full-time",
 		description:
-			"Designed and implemented software for speech recognition products, mainly Audimus.Media, Audimus.Server, " +
-			"and internal tools. The work focused on backend features, integrations, performance, and reliable service interaction.",
+			"VoiceInteraction specialises in cutting-edge speech recognition technology, striving to enhance human " +
+			"communication through innovative solutions. As a Software Engineer at VoiceInteraction, I am responsible " +
+			"for helping design and implement software solutions to support the company's products and services, mainly " +
+			"contributing to both Audimus.Media and Audimus.Server, as well as various internal products.",
 		gradient: "linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%)",
 		color: "#8B5CF6",
 	},
@@ -82,7 +86,7 @@ const professionalExperience: TimelineItemData[] = [
 		dateEnd: "Aug 2022",
 		type: "Teaching",
 		description:
-			"Taught laboratory classes for the Artificial Intelligence course and supported students with practical assignments.",
+			"Teaching laboratory classes of Artificial Intelligence course",
 		gradient: "linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%)",
 		color: "#F59E0B",
 	},
@@ -95,7 +99,7 @@ const professionalExperience: TimelineItemData[] = [
 		dateEnd: "Nov 2022",
 		type: "Research",
 		description:
-			'Researched reputation mechanisms for location-proof witnesses through the thesis "SureRepute: Reputation System for Location Proof Witnesses".',
+			'Research and development related to a thesis on "SureRepute: Reputation System for Location Proof Witnesses".',
 		gradient: "linear-gradient(135deg, #D946EF 0%, #E879F9 100%)",
 		color: "#D946EF",
 	},
@@ -108,7 +112,7 @@ const professionalExperience: TimelineItemData[] = [
 		dateEnd: "Sep 2019",
 		type: "Internship",
 		description:
-			"Completed a summer internship focused on service virtualization.",
+			"Summer Internship. Theme: Service Virtualization",
 		gradient: "linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%)",
 		color: "#FF6B35",
 	},
@@ -124,8 +128,8 @@ const academicJourney: TimelineItemData[] = [
 		dateEnd: "Nov 2022",
 		type: "Master's",
 		description:
-			"Specialized in Distributed Systems and Cyber Security. " +
-			"Graduated with a final grade of 18/20 and completed the thesis 'SureRepute: Reputation System for Location Proof Witnesses'.",
+			"Specialized in Distributed Systems & Cyber-Security and graduated with a 18/20 GPA. " +
+			"Completed thesis on 'SureRepute: Reputation System for Location Proof Witnesses'.",
 		gradient: "linear-gradient(135deg, #059669 0%, #10B981 100%)",
 		color: "#059669",
 	},
@@ -138,8 +142,8 @@ const academicJourney: TimelineItemData[] = [
 		dateEnd: "Jul 2020",
 		type: "Bachelor's",
 		description:
-			"Built a strong foundation in algorithms, data structures, databases, computer networks, operating systems, and software engineering. " +
-			"Graduated with a final grade of 17/20.",
+			"Started my specialized education as a student in the Computer Science & Engineering program at IST " +
+			"and graduated with a 17/20 GPA. Built a strong foundation in software engineering, algorithms, and system design.",
 		gradient: "linear-gradient(135deg, #0D9488 0%, #14B8A6 100%)",
 		color: "#0D9488",
 	},
@@ -293,7 +297,12 @@ function TimelineSection({
 											href={item.url}
 											target="_blank"
 											sx={{
-												textDecoration: "none",
+												display: "inline-flex",
+												width: "fit-content",
+												textDecoration: "none !important",
+												"&:hover": {
+													textDecoration: "none !important",
+												},
 											}}
 										>
 											<Typography
@@ -450,7 +459,7 @@ export default function Experience() {
 								mx: "auto",
 							}}
 						>
-							Roles, systems, and teams I have contributed to
+							My professional journey
 						</Typography>
 					</Box>
 				</AnimatedFadeInNode>
@@ -530,7 +539,7 @@ export default function Experience() {
 								mx: "auto",
 							}}
 						>
-							Formal training behind the engineering work
+							My academic background
 						</Typography>
 					</Box>
 				</AnimatedFadeInNode>

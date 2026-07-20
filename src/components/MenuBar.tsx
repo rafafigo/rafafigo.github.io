@@ -631,7 +631,7 @@ function MenuBar() {
 												backgroundClip: "text",
 											}}
 										>
-											Get in Touch
+											Get In Touch
 										</Typography>
 										<Box
 											sx={{
