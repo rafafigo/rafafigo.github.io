@@ -78,7 +78,7 @@ export default function Footer() {
 						backgroundClip: "text",
 					}}
 				>
-					Get In Touch
+					Get in Touch
 				</Typography>
 				<Typography
 					variant="body1"
@@ -89,7 +89,7 @@ export default function Footer() {
 						mx: "auto",
 					}}
 				>
-					Feel free to reach out through any of these platforms
+					Reach me through any of these platforms
 				</Typography>
 			</Box>
 			<Stack justifyContent="center" spacing={{ xs: 3, sm: 4 }}>
@@ -197,7 +197,7 @@ export default function Footer() {
 						pt: { xs: 2, sm: 3 },
 					}}
 				>
-					{"Copyright © • " + new Date().getFullYear() + " Rafael Figueiredo"}
+					{"Copyright © " + new Date().getFullYear() + " Rafael Figueiredo"}
 				</Typography>
 				<Stack direction="row" justifyContent="center" flexWrap="wrap">
 					<Typography
@@ -208,7 +208,7 @@ export default function Footer() {
 							fontSize: { xs: "0.9rem", sm: "1rem" },
 						}}
 					>
-						{" All Rights Reserved • "}
+						{"All Rights Reserved • "}
 						<Link
 							href="https://github.com/rafafigo/rafafigo.github.io/blob/main/LICENSE"
 							target="_blank"

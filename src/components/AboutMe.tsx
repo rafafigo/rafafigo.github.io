@@ -12,12 +12,10 @@ const items = [
 		icon: <EmojiEmotions fontSize="large" />,
 		title: "Me",
 		description:
-			"Hey there! 👋 I am Rafael Figueiredo, a dedicated Senior Software Engineer with a Master's degree in " +
-			"Computer Science and Engineering from IST. Currently contributing my skills to Motorola Solutions, " +
-			"where we are commited to solving for safer everywhere. I consider myself an ambitious and hard-working " +
-			"individual, often recognized for my commitment and ability. I handle multiple tasks regularly and competently, " +
-			"working well under pressure. When I am not coding, you'll find me reading books, hanging out with friends, or " +
-			"binge-watching the latest series.",
+			"I am Rafael Figueiredo, a Senior Software Engineer with a Master's degree in Computer Science and Engineering " +
+			"from Instituto Superior Técnico. I build reliable cloud products end to end across backend services, frontend " +
+			"applications, infrastructure, and CI/CD. My work focuses on maintainable systems, clear ownership, and production-ready delivery. Outside " +
+			"work, I enjoy reading, spending time with friends, and watching a good series.",
 		gradient: "linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%)",
 		color: "#F59E0B",
 		bgColor: "rgba(245, 158, 11, 0.08)",
@@ -25,14 +23,11 @@ const items = [
 	},
 	{
 		icon: <Shield fontSize="large" />,
-		title: "Motorola Solutions Goals",
+		title: "Motorola Solutions",
 		description:
 			"Motorola Solutions aims to create innovative communication solutions that empower public safety and " +
-			"enterprises to be their best in the moments that matter. Their goals includes enhancing safety, " +
-			"improving operational efficiency, and enabling better decision-making through advanced technology and " +
-			"integrated solutions. By leveraging cutting-edge developments in areas like mission-critical communications, " +
-			"video security, and data analytics, Motorola Solutions strives to provide reliable and effective tools that " +
-			"help organizations and communities stay connected, informed, and secure.",
+			"enterprise teams in the moments that matter. Its work spans mission-critical communications, video " +
+			"security, and data analytics, helping organizations stay connected, informed, and secure.",
 		gradient: "linear-gradient(135deg, #0EA5E9 0%, #38BDF8 100%)",
 		color: "#0EA5E9",
 		bgColor: "rgba(14, 165, 233, 0.08)",
@@ -42,11 +37,9 @@ const items = [
 		icon: <EmojiObjects fontSize="large" />,
 		title: "Daily Work",
 		description:
-			"In my daily work, I am positioned in a cross-functional team where I work in all forefronts: backend, frontend, " +
-			"infrastructure and continuous integration and continuous delivery pipelines, working with cloud-based applications " +
-			"using a microservices and micro frontends architecture. During my development I engage with a variety of tools and " +
-			"frameworks, including Java, TypeScript, React, Springboot, Python, Bash, Powershell, Terraform, Docker, Kubernetes, Azure, " +
-			"Github Actions, MongoDB, PostgreSQL, JUnit, Cypress and more.",
+			"I work in a cross-functional team across backend services, frontend applications, infrastructure, and " +
+			"continuous delivery pipelines. The stack includes Java, TypeScript, React, Angular, Spring Boot, Python, Bash, " +
+			"Terraform, Docker, Kubernetes, Azure, AWS, GitHub Actions, MongoDB, PostgreSQL, Elastic, Kibana, Prometheus, Grafana, JUnit, Cypress, and Testcontainers.",
 		gradient: "linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%)",
 		color: "#8B5CF6",
 		bgColor: "rgba(139, 92, 246, 0.08)",
@@ -116,7 +109,7 @@ export default function AboutMe() {
 							mx: "auto",
 						}}
 					>
-						Get to know me better
+						What I build, where I work, and how I think about software
 					</Typography>
 				</Box>
 			</AnimatedFadeInNode>

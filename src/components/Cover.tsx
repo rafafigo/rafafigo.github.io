@@ -125,7 +125,7 @@ export default function Cover() {
 									mb: 1,
 								}}
 							>
-								Senior Software Engineer @
+								Senior Software Engineer at
 							</Typography>
 						<Link
 							href="https://www.motorolasolutions.com"
@@ -200,7 +200,7 @@ export default function Cover() {
 							mb: 0.5,
 						}}
 					>
-						Master's Degree in Computer Science and Engineering @
+						Master's Degree in Computer Science and Engineering from
 					</Typography>
 						<Link
 							target="_blank"

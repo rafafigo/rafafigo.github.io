@@ -324,10 +324,9 @@ function getMenuItems(scrollToSection: (sectionId: string) => void, activeSectio
 				</Typography>
 			</MenuItem>
 			<MenuItem
-				href="https://drive.google.com/file/d/15tqZYWN8FHpFS0a6HUmsKGTaCLWo86pp/view?usp=sharing"
+				href="/rafael-figueiredo-cv.pdf"
 				target="_blank"
 				component="a"
-				onClick={() => scrollToSection("pricing")}
 				sx={{
 					py: { xs: 1, md: 1.25 },
 					px: { xs: 1.5, md: 2 },
@@ -370,7 +369,7 @@ function getMenuItems(scrollToSection: (sectionId: string) => void, activeSectio
 						fontSize: { xs: "0.85rem", md: "0.875rem" },
 					}}
 				>
-					Curriculum
+					CV
 				</Typography>
 			</MenuItem>
 			<MenuItem
@@ -632,7 +631,7 @@ function MenuBar() {
 												backgroundClip: "text",
 											}}
 										>
-											Get In Touch
+											Get in Touch
 										</Typography>
 										<Box
 											sx={{
